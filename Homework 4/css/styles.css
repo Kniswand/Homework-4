@@ -1,0 +1,55 @@
+nav {
+    background-color:orangered;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+}
+
+span{
+    margin-right: 20px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img{
+    margin-left:25%;
+}
+
+b{
+    font-size: 20px;
+}
+
+footer{
+    background-color: orangered;
+    height:25px;
+    text-align: center;
+    color:white;
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.content{
+    background-color: white;
+    width: 20%;
+    padding: 5px;
+    margin: 15% auto;
+    border-radius: 5%;
+    text-align: center;
+}
